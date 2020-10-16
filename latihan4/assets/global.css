@@ -1,0 +1,70 @@
+p{
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+}
+
+small{
+	font-family: 'Open Sans', sans-serif;
+}
+
+table{
+	margin-left: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+td{
+	padding: 4px;
+	text-align: center;
+}
+
+th{
+	padding: 4px;
+}
+
+p:first-letter{
+	margin-left: 15px;
+}
+
+b{
+	font-family: 'Montserrat', sans-serif; 
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+
+ol li{
+	font-weight:bold;
+	font-family: 'Open Sans', sans-serif;
+}
+
+li > p{
+    font-weight:normal;
+}
+
+button{
+	margin-top: 15px;
+	color: white;
+	background-color: black;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 10px;
+	border: none;
+	padding: 15px;
+}
+
+a{
+	text-decoration: none;
+}
+
+@media(max-width:340px){
+	table{
+		margin-left: 0px;
+	}
+}
