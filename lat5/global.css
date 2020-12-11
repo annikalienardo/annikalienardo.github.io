@@ -1,0 +1,405 @@
+.dropbtn {
+  background-color: #003451;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #003451;
+  width: 100%;
+  max-width: 100%;
+  z-index: 1;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 4px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1; 
+  color: black; 
+  width: 50%; 
+  margin-left: 25%;
+}
+
+.show {
+  display:block;
+}
+
+.show:active .logowwd{
+  display:none;
+}
+
+.logomenu {
+  width: 65px;
+  height: 10px;
+  background-color: white;
+  margin-top: 13px;
+  margin-left: 15px; 
+}
+
+.navbar{
+  background-color: #003451;
+  position: sticky;
+  top: 0; 
+  padding-top: 10px;
+  height: 135px;
+  z-index: 3;
+}
+
+body{
+  background-color: #003451;
+}
+
+.logowwd{
+  width: 25%;
+  padding-right: 15px; 
+  margin-top: -100px; 
+}
+
+.content{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.judul{
+  text-align: left;
+  font-size: 70px;
+  color: maroon;
+  margin-top: -1400px;
+  margin-left: 80px;
+}
+
+.judul b{
+  color: #003451;
+  font-size: 90px;
+}
+
+.judul small{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.gambarkura{
+  width: 100%;
+}
+
+.about{
+  text-align: left;
+  font-family: 'oswald',sans-serif;
+  font-size: 64px;
+  color: white;
+  margin-top: 600px;
+  margin-left: 50%;
+  background-color: #003451;
+  opacity: 0.6;
+  padding-top: 15px;
+  padding-right: 80px;
+  padding-left: 50px;
+  padding-bottom: 15px;
+  margin-right: -30px;
+  border-width: 0px;
+}
+
+.disclaimer{
+  font-size: 40px;
+  color: maroon;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.bawah{
+  margin-top: 20px;
+  /*background-image: url("bg2.png");*/
+  background-color: #66ccf4;
+  background-repeat: none;
+}
+
+.bawah p{
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 0px;
+}
+
+.bawah b{
+  font-size: 50px;
+  color: white;
+}
+
+.bawah a{
+  text-decoration: none;
+}
+
+.bawah u{
+  font-weight: bold;
+}
+
+.bg{
+  width: 100%;
+}
+
+.profile1{
+  margin-top: 50px;
+  width: 60%;
+}
+
+.wwf{
+  margin-top: 0px;
+  width: 10%;
+  margin-right: 220px;
+}
+
+.undp{
+  margin-top: -150px;
+  margin-left: 0px;
+}
+
+.sos{
+  margin-top: -125px;
+  margin-bottom: 130px;
+  width: 15%;
+  margin-left: 25%;
+}
+
+.footer{
+  font-size: 30px;
+  color: white;
+  margin-top: 40px;
+}
+
+.bawahabout{
+  margin-top: 20px;
+  /*background-image: url("bg2.png");*/
+  background-color: #66ccf4;
+  background-repeat: none;
+}
+
+.bawahabout p{
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 0px;
+  text-align: left;
+  max-width: 100%;
+}
+
+.bawahabout b{
+  font-size: 50px;
+  color: white;
+  text-align: left;
+}
+
+.bawahabout u{
+  color: blue;
+}
+
+.bawahabout center{
+  font-size: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: white;
+  max-width: 100%;
+}
+
+.bawahabout ul{
+  width: 100%;
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.bawahabout li{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.fotoabout{
+  margin-top: -170px;
+  width: 100%;
+}
+
+.fotogi{
+  width: 100%;
+}
+
+hr{
+  width: 90%;
+  color: #003451;
+}
+
+.warnaputih{
+  color: white;
+}
+
+.twitter{
+  width: 20%;
+  margin-right: 25%;
+}
+
+.fb{
+  width: 11%;
+  margin-top: -200px;
+  margin-bottom: 15px;
+}
+
+.ig{
+  width: 10%;
+  margin-top: -200px;
+  margin-bottom: 40px;
+  margin-left: 25%;
+}
+
+@media(min-width:1366px){ /*/ layar 11 inch*/
+  .logowwd{
+    width: 20%;
+    margin-top: -80px;
+  }
+  .judul{
+    margin-top: -2000px;
+  }
+  .about{
+    margin-top: 900px;
+    margin-right: -230px;
+  }
+  .disclaimer{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 50px;
+  }
+  .bawah{
+    margin-top: 55px;
+  }
+  .wwf{
+    margin-left: -250px;
+  }
+  .undp{
+    width: 10%;
+    margin-top: -190px;
+  }
+  .sos{
+    margin-top: -190px;
+    margin-left: 460px;
+  }
+  .dropdown-content{
+    margin-top: 0px;
+  }
+}
+
+@media(min-width: 1280px){ /*layar 15 inch*/
+  .logowwd{
+    width: 9%;
+    margin-top: -55px;
+    margin-right: 20px;
+  }
+  .navbar{
+    height: 50px;
+    top: 0;
+    padding-top: -10px;
+    max-height: 50px;
+  }
+  body{
+    margin-top: 0px;
+  }
+  .logomenu{
+    width: 25px;
+    height: 5px;
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+  .dropdown button{
+    margin-top: -12px;
+  }
+  .judul{
+    margin-top: -1850px;
+    margin-bottom: 450px;
+  }
+  .about{
+    margin-top: 550px;
+    margin-bottom: 50px;
+  }
+  .profile1{
+    width: 35%;
+  }
+  .bawah p{
+    font-size: 20px;
+    width: 50%;
+    padding-left: 25%;
+  }
+  .wwf{
+    width: 8%;
+    margin-left: -90px;
+  }
+  .sos{
+    margin-left: 380px;
+    margin-top: -200px;
+  }
+  .bawah b{
+    font-size: 40px;
+  }
+  .footer{
+    font-size: 20px;
+  }
+  .dropdown-content{
+    margin-top: 0px;
+  }
+  .dropdown-content a{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .bawahabout p{
+    font-size: 20px;
+  }
+  .bawahabout center{
+    font-size: 20px;
+  }
+  .fotogi{
+    width: 70%;
+  }
+  .fotoabout{
+    width: 60%;
+    margin-top: 50px;
+  }
+}
+
+@media(min-width: 1536px){
+  .logowwd{
+    width: 7%;
+  }
+  .judul{
+    margin-top: -2200px;
+  } 
+  .about{
+    margin-top: 630px;
+    margin-bottom: 0px;
+  }
+  .wwf{
+    margin-left: -130px;
+  }
+  .sos{
+    margin-top: -230px;
+    margin-left: 450px;
+  }
+}
